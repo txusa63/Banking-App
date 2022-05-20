@@ -1,0 +1,187 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+} */
+
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+body, html {
+  /* height: 100%; */
+  /* margin: 0; */
+  /* background-color: rgb(37, 114, 202); */
+}
+
+.my-app { 
+  /* height: 40%; */
+  /* width: 40%; */
+  margin: 65px auto;
+  /* background-color: rgb(37, 114, 202); */
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  padding-top: 100px;
+  /* border-style: solid;
+  border-color: blue; */
+}
+
+.input-box {
+  background-color: rgb(133, 166, 206);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+button {
+  border: none;
+  float: right;
+  margin: 2px;
+  border-radius: 50%;
+}
+
+button:hover {
+  background-color: rgb(14, 36, 175);
+  color: rgba(228, 228, 228, 0.876);
+}
+
+.logout-btn {
+  float: right;
+  margin: 5px;
+  border-radius: 10%;
+  background-color: white;
+}
+
+.login-input {
+  border: none
+}
+
+.accounts {
+  padding-top: 65px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.accounts-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-style:solid;
+  background-color: rgb(37, 114, 202);
+  width: 30%;
+  margin: 10px;
+  padding: 10px;
+  background-color: rgb(220, 239, 249);
+  border-radius: 15px;
+}
+
+.accounts-list:hover {
+  background-color: rgb(37, 114, 202);
+  color: rgba(228, 228, 228, 0.876);
+}
+
+.home {
+  margin: 65px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.zelle {
+  margin: 65px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.transfer {
+  margin: 65px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.payment {
+  margin: 65px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navb {
+  width: 10%;
+  color: white;
+}
+
+.nav-color {
+  background-color: rgb(37, 114, 202);
+}
+
+.nav-color-text {
+  color: black;
+}
+
+a {
+  border-radius: 10px;
+}
+
+a:hover {
+  background-color: rgb(37, 114, 202);
+  color: rgba(228, 228, 228, 0.876);
+  /* border-radius: 10px; */
+}
+
+.transactions {
+  padding-top: 65px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+table {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-style:solid;
+  background-color: rgb(37, 114, 202);
+  width: 30%;
+  margin: 10px;
+  padding: 10px;
+  background-color: rgb(220, 239, 249);
+  border-radius: 5px;
+}
